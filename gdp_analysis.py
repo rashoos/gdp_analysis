@@ -12,9 +12,9 @@ url = "https://raw.githubusercontent.com/datasets/gdp/master/data/gdp.csv"
 df = pd.read_csv(url)
 
 # Config
-START = 2010
+START = 2000
 END = 2015
-TOP_N = 100
+TOP_N = 10
 
 # Clean Data
 exclude = ["World", "income", "OECD", "dividend", "IDA",
