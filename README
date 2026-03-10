@@ -1,0 +1,34 @@
+In the same folder create a file called `README.md` and type this:
+```
+# GDP Growth Analysis 🌍
+
+A Python data analysis tool that finds the fastest growing
+economies in the world using real World Bank data.
+
+## What it does
+- Loads real GDP data from the internet
+- Cleans and filters out regional groupings
+- Calculates GDP growth % between any two years
+- Ranks all countries
+- Shows a bar chart of top 10
+
+## How to run
+1. Install pandas and matplotlib
+   pip install pandas matplotlib
+
+2. Run the script
+   python gdp_analysis.py
+
+## Key findings (2010-2023)
+- Fastest growing: Ethiopia, Somalia, Bangladesh
+- India rank: #40 with 69% growth
+- China: #10 with 134% growth
+
+## Tools used
+- Python
+- Pandas
+- Matplotlib
+- World Bank GDP Dataset
+
+## Author
+MUHAMMAD RASHAD TP — BA Economics Graduate
