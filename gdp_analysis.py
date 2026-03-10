@@ -13,8 +13,8 @@ df = pd.read_csv(url)
 
 # Config
 START = 2010
-END = 2020
-TOP_N = 50
+END = 2015
+TOP_N = 100
 
 # Clean Data
 exclude = ["World", "income", "OECD", "dividend", "IDA",
